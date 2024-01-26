@@ -1,0 +1,117 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: olivedrab;
+}
+    @media only screen and (min-width: 768px) {
+        body {background-color: powderblue;
+        }
+    }
+
+header {
+    background-color: #ff0000 ;
+    font-family:'Lemon' ;
+     color: #fff;
+    display: flex ; 
+    justify-content: center;
+    width: 100%;
+}
+
+footer {
+    background-color: #ffff00;
+    width: 100%;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+
+
+.titelinblokje {  
+    color: tomato;
+    max-width: 98% ;
+    font-size: 20px ;
+   font-weight:bold;
+   font-style: italic;
+  position:relative;
+  top: 2px;
+  left: 2px;
+  padding-right: 1px;
+} 
+
+[class*="col-"] {
+    width: 100%;
+    height: auto;
+}
+    @media only screen and (min-width: 768px) {
+        [class*="col-"] {
+            float: left;
+            padding: 0px;
+        }
+
+.col-1 {width: 9.09%;}
+.col-2 {width: 18.18%;}
+.col-3 {width: 27.27%;}
+.col-4 {width: 36.36%;}
+.col-5 {width: 45.45%;}
+.col-6 {width: 54.55%;}
+.col-7 {width: 63.64%;}
+.col-8 {width: 72.73%;}
+.col-9 {width: 81.82%;}
+.col-10 {width: 90.91%;}
+.col-11 {width: 100%;} 
+}
+
+.koptekst-achtergrond { background-size: cover;
+                    background-image: url('../afbeeldingen/oranjepark.jpg');
+                    font-size: 18px;
+                    padding:1% ;
+} @media only screen and (min-width: 780px) {
+    .koptekst-achtergrond {  font-size: 24px;
+    }
+}
+    
+
+.paragraaf { width: 100%;
+            font-size: smaller;
+            overflow-wrap: break-word;
+
+}
+
+
+.artikel {display: flex;
+        flex-direction: row;
+        padding: 5px;
+}
+
+#inhoud { 
+    height: 100%;
+    padding: 0%;
+    margin: 0%; 
+}  @media only screen and (min-width: 780px) {
+    #inhoud {  display: flex;
+    }
+}
+
+#deelA {     background-color:  lightcyan;
+    padding: 1vw;
+    height: 100%;
+}    
+
+#deelB {
+    background-color: paleturquoise;
+    padding: 1vw;
+    height:100% ;
+} 
+
+.img_artikel { width: 115px; height: 115px;
+    float: right;
+    margin-right: 1%;
+    margin-left: 1%;
+    border: 2px solid grey;
+    border-radius: 5px;
+}
+
+
+
+
